@@ -3,26 +3,29 @@ import sys
 
 def factorial(n):
     """
-    Calculate the factorial of a given non-negative integer recursively.
+    Calculates the factorial of a given integer.
 
     Function Description:
-    This function calculates the factorial of a given non-negative integer `n`. 
-    The factorial of `n` (denoted as `n!`) is the product of all positive integers 
-    from 1 to `n`. By definition, the factorial of 0 is 1.
+    ---------------------
+    Computes the factorial of a non-negative integer by recursively multiplying it with all positive integers less than itself.
 
     Parameters:
-    n (int): A non-negative integer whose factorial is to be calculated.
+    -----------
+    n : int
+        The integer for which the factorial is to be calculated.
 
     Returns:
-    int: The factorial of the input integer `n`. If `n` is 0, it returns 1.
+    --------
+    int
+        The factorial of the input integer n.
     """
     if n == 0:
         return 1
     else:
-        return n * factorial(n - 1)
+        return n * factorial(n-1)
 
-# Get the input number from command line arguments
+# Retrieve the integer input from command-line argument
 f = factorial(int(sys.argv[1]))
 
-# Print the calculated factorial
+# Print the factorial result
 print(f)
