@@ -2,7 +2,7 @@
 
 Objective: Use ChatGPT to identify and correct errors in code samples.
 
-```
+```py
 $ cat factorial.py
 #!/usr/bin/python3
 import sys
@@ -34,7 +34,7 @@ Fix the code, it should print the factorial of the argument.
 
 Objective: Use ChatGPT to identify and correct errors in code samples.
 
-```
+```py
 $ cat print_arguments.py
 #!/usr/bin/python3
 import sys
@@ -57,7 +57,7 @@ Fix the code, it should print only the arguments without the python file name.
 
 Objective: Use ChatGPT to identify and correct errors in code samples.
 
-```
+```html
 $ cat change_background.html
 <!DOCTYPE html>
 <html lang="en">
@@ -111,7 +111,7 @@ Objective: Use ChatGPT to identify and correct errors in code samples.
 
 Game Overview: Minesweeper is a puzzle game where the player must clear a field of hidden “mines” without detonating any of them, using clues about the number of neighboring mines in each field.
 
-```
+```py
 $ cat mines.py
 #!/usr/bin/python3
 import random
@@ -186,7 +186,7 @@ if __name__ == "__main__":
 
 Fix the code, implement a mechanism to detect when all non-mine cells have been revealed, thus winning the game.
 
-```
+```py
 $ ./mines.py
 0 1 2 3 4 5 6 7 8 9
 1
@@ -220,7 +220,7 @@ Congratulations! You've won the game.
 
 Objective: Use ChatGPT to document the code
 
-```
+```py
 $ cat factorial_recursive.py
 #!/usr/bin/python3
 import sys
@@ -246,7 +246,7 @@ Add the comments to this code. You should have 3 sections: function description,
 
 Objective: Use ChatGPT to document the code
 
-```
+```py
 $ cat checkbook.py
 class Checkbook:
     def __init__(self):
@@ -291,7 +291,7 @@ if __name__ == "__main__":
 
 Fix the code, to prevent the program from crashing due to invalid input (e.g., non-numeric values), add error handling mechanisms.
 
-```
+```py
 $ ./checkbook.py
 What would you like to do? (deposit, withdraw, balance, exit): deposit
 Enter the amount to deposit: $test
@@ -312,7 +312,7 @@ Objective: Use ChatGPT to identify and correct errors in code samples. (There ma
 
 Game Overview: Players alternate placing “X” or “O” on a 3x3 board, aiming to get three in a row horizontally, vertically, or diagonally to win.
 
-```
+```py
 $ cat tic.py
 #!/usr/bin/python3
 def print_board(board):
